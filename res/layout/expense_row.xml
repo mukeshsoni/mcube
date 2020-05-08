@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/dayText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:id="@+id/amountText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/dayText"
+        android:layout_alignBottom="@+id/dayText"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:id="@+id/categoryText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/dayText"
+        android:layout_below="@+id/dayText" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/dayText"
+        android:layout_toRightOf="@+id/dayText"
+        android:text="@string/dash" />
+
+    <TextView
+        android:id="@+id/monthText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/categoryText"
+        android:layout_alignTop="@+id/textView1"
+        android:layout_toRightOf="@+id/textView1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/monthText"
+        android:layout_alignBottom="@+id/monthText"
+        android:layout_toRightOf="@+id/monthText"
+        android:text="@string/dash" />
+
+    <TextView
+        android:id="@+id/yearText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/categoryText"
+        android:layout_toRightOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/amountText"
+        android:layout_alignBottom="@+id/amountText"
+        android:layout_toLeftOf="@+id/amountText"
+        android:text="@string/currency_symbol" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/categoryText"
+        android:layout_alignBottom="@+id/categoryText"
+        android:layout_toRightOf="@+id/categoryText"
+        android:text="@string/comma" />
+
+    <TextView
+        android:id="@+id/bankText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/categoryText"
+        android:layout_alignBottom="@+id/categoryText"
+        android:layout_toRightOf="@+id/textView4" />
+
+</RelativeLayout>

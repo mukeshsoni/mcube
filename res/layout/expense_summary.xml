@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/timeSortSpinner"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="3dp"
+        android:gravity="left|center_vertical" 
+        />
+
+
+	<TextView
+        android:id="@+id/totalExpenseTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/timeSortSpinner"
+        android:layout_alignParentRight="true"
+        android:gravity="right|center_vertical"
+        android:paddingRight="20dp"
+        android:text="@string/total_expense_title"
+        />
+	
+    <TextView
+        android:id="@+id/totalExpense"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/timeSortSpinner"
+        android:layout_below="@id/totalExpenseTitle"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:gravity="right"
+        android:paddingRight="20dp"
+        />
+
+    <View
+        android:id="@+id/separator"
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="@android:color/darker_gray"
+    android:layout_below="@+id/totalExpense"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp"/>
+    
+    <ListView
+        android:id="@+id/listViewByCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/separator" >
+    </ListView>
+    
+    <ListView
+        android:id="@+id/listViewByExpense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:visibility="visible"
+        android:layout_below="@+id/separator" >
+    </ListView>
+    
+</RelativeLayout>

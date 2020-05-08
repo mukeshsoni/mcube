@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/delete_expense"
+        android:title="@string/delete_expense"
+        android:icon="@drawable/ic_action_delete_expense"
+        android:showAsAction="always"
+    />
+
+    <item
+        android:id="@+id/save_expense"
+        android:title="@string/save_expense"
+        android:icon="@drawable/ic_action_save_expense"
+        android:showAsAction="always"
+    />
+</menu>

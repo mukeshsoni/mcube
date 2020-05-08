@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref_pop_up"
+        android:summary="@string/pref_pop_up_sum"
+        android:title="@string/pref_pop_up" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref_read_private_sms"
+        android:selectable="false"
+        android:summary="@string/pref_read_private_sms_sum"
+        android:title="@string/pref_read_private_sms" />
+
+    <Preference
+        android:key="pref_app_rater"
+        android:summary="Rate MCUBE on Google Play"
+        android:title="Rate MCUBE" />
+
+</PreferenceScreen>

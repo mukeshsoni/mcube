@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/add_category"
+        android:title="@string/add_category"
+        android:icon="@drawable/ic_action_add_category"
+        android:showAsAction="always"
+    />
+</menu>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" 
+  android:id="@+id/TheTutorialLayout"
+  android:background="@drawable/tutorial"
+  >
+
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/SplashImageView"
+        android:layout_alignRight="@+id/SplashImageView"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="onClickTakeMeToTheApp"
+        android:visibility="invisible"
+        android:text="@string/takeMeToTheAppButton"/>
+</RelativeLayout>

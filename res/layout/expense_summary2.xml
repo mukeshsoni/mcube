@@ -1,0 +1,133 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/timeSortSpinner"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="3dp"
+        android:gravity="left|center_vertical" />
+
+    <TextView
+        android:id="@+id/totalExpenseTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/timeSortSpinner"
+        android:gravity="right|center_vertical"
+        android:paddingRight="20dp"
+        android:text="@string/total_expense_title" />
+
+    <TextView
+        android:id="@+id/totalExpense"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/totalExpenseTitle"
+        android:layout_toRightOf="@id/timeSortSpinner"
+        android:gravity="right"
+        android:paddingRight="20dp"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/separator"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/totalExpense"
+        android:background="@android:color/darker_gray"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp" />
+
+    <ListView
+        android:id="@+id/listViewByCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@+id/recategorizeExpensesButton"
+        android:layout_below="@+id/separator" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/emptyCatView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/separator"
+        android:padding="4dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/emptyCatViewText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/emptyCatViewText" />
+
+        <Button
+            android:id="@+id/scanSmsButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="dp"
+            android:text="@string/scanSmsButtonLabel" />
+    </LinearLayout>
+
+    <Button
+            android:id="@+id/recategorizeExpensesButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentBottom="true"
+            android:text="@string/recategorize_expenses" />
+    
+    <RelativeLayout
+        android:id="@+id/expenseListContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/separator"
+        android:visibility="invisible" >
+
+        <TextView
+            android:id="@+id/categoryName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="3dp"
+            android:text="@string/backButtonText"
+            android:width="100dp" />
+
+        <View
+            android:id="@+id/separator2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/backButton"
+            android:background="@android:color/darker_gray"
+            android:paddingBottom="2dp"
+            android:paddingTop="2dp" />
+
+        <ListView
+            android:id="@+id/listViewByExpense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/separator2" >
+        </ListView>
+    </RelativeLayout>
+
+</RelativeLayout>

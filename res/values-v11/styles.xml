@@ -1,0 +1,8 @@
+<resources>
+
+        <style name="AppTheme" parent="Theme.Sherlock.Light">
+        <item name="android:textColor">@color/defaultText</item>
+    </style>
+
+
+</resources>

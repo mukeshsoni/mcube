@@ -1,0 +1,117 @@
+<resources>
+
+    <string name="app_name">MCUBE</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_expense_overview">MCUBE</string>
+    <string name="menu_search">Search</string>
+    <string name="whatsNewTitle">Welcome to MCUBE</string>
+	<string name="whatsNewText">Welcome to MCUBE. \n\nWe can automatically file your expenses from your transaction SMSes. Would you like to do that? \n\nWE DO NOT READ YOUR PRIVATE SMS.</string>
+	<string name="ok">OK</string>
+	<string name="no">Nope</string>
+	
+    <string name="no_items">Zero search results</string>
+	<string name="saveExpenseButtonLabel">Save</string>
+	<string name="saveCategoryButtonLabel">Save</string>
+	<string name="cancelExpenseButtonLabel">Cancel</string>
+	<string name="deleteExpenseButtonLabel">Delete</string>
+	<string name="saveIncomeButtonLabel">Save</string>
+	<string name="cancelIncomeButtonLabel">Cancel</string>
+	<string name="deleteIncomeButtonLabel">Delete</string>
+	<string name="alertPopupCloseButton">Close</string>
+	<string name="alertPopupDiscardButton">Discard</string>
+	<string name="alertPopupLaterButton">Later</string>
+	<string name="alertPopupOkButton">Let\'s do it</string>
+	<string name="categoryPrompt">Choose a Category</string>
+	<string name="expenseNotes">Notes</string>
+	<string name="incomeDate">Date</string>
+	<string name="MediumText">Medium Text</string>
+	<string name="changeDate">Change</string>
+	<string name="menu_add_expense">Add New Expense</string>
+	<string name="title_activity_add_expense">Add Expense</string>
+	<string name="expense_list_fragment_activity_title">Expense List</string>
+	<string name="label_expenses_tab">Expenses</string>
+	<string name="label_reminders_tab">Reminders</string>
+	<string name="share">Share</string>
+	<string name="menu_sort">Sort</string>
+	<string name="pref_pop_up">Pop up notification on SMS arrival</string>
+	<string name="pref_pop_up_sum">Pop up notification</string>
+	<string name="pref_read_private_sms">Don\'t read private SMS</string>
+    <string name="pref_read_private_sms_sum">Private SMS reading</string>
+	
+	<string name="menu_preferences">Settings</string>
+	<string name="settings_activity_title">Settings</string>
+	<string name="bankNameLabel">Bank</string>
+	<string name="bankNamePrompt">Select a Bank</string>
+	<string name="menu_export_to_csv">Export to CSV</string>
+	<string name="date_label">Date</string>
+	<string name="crash_toast_text">Shit happens. A report has been sent to the developer who has already started to work on a fix.</string>
+	<string-array name="expense_filter">
+	    <item>All Time</item>
+		<item>Last 7 days</item>
+		<item>Last 30 days</item>
+		<item>This Month</item>
+		<item>This Year</item>
+	</string-array>
+	
+	<string-array name="order">
+        <item>All</item>
+        <item>Last 7 days</item>
+        <item>Last 30 days</item>
+        <item>This Month</item>
+        <item>This Year</item>
+    </string-array>
+    
+	<string name="currency">Rs.&#160;</string>
+	<string name="total_expense_title">Total</string>
+	<string name="no_expense_items">No expenses! Why don\'t you buy that shiny thing for the love of your live?</string>
+	<string name="no_reminder_items">No reminders to show</string>
+	<string name="select_bank">Select Bank</string>
+	
+    <string name="about_text1">More than 95% of people do not track their expenses because it\'s just too difficult. And boring.</string>
+    <string name="about_text2">MCube is trying to take away the pain in tracking your expenses. \n\n- We will process all your bank transaction SMSes and file expenses from them.\n\n- We will nag you to file an expense as soon as you make it by auto filling the mundane details. Hell, we even make an attemp to categorize the expense for you. \n\nYou will realise the full utility of the app after using it for a few weeks. The first few times will seem like magic! Enjoy the tour! \n\nWE DO NOT READ YOUR PRIVATE SMS.</string>
+    <string name="menu_about">About Us</string>
+    <string name="about_activity_title">About Us</string>
+    <string name="delete_expense">Delete Expense</string>
+    <string name="save_expense">Save Expense</string>
+    <string name="no_category_items">No categories</string>
+    <string name="add_category">Add New Category</string>
+    <string name="enterCategoryName">Enter Category Name</string>
+    <string name="addCategoryButtonLabel">Add</string>
+    <string name="categoryHint">Enter Category Name</string>
+    <string name="show_categories">Categories</string>
+    <string name="category_activity">Categories</string>
+    <string name="add_category_activity">Add New Category</string>
+    <string name="dash">-</string>
+    <string name="currency_symbol">Rs.&#160;</string>
+    <string name="comma">,&#160;</string>
+    <string name="notesHint">Additional Notes</string>
+    <string name="datePickerDescription">Pick a date</string>
+    <string name="expense_amount_label">Amount</string>
+    <string name="category_label">Category</string>
+    <string name="addCategoryButtonDescription">Add New Category</string>
+    <string name="uncategorized_expense_list_fragment_activity_title">Uncategorized Expenses</string>
+    <string name="backButtonText">Back</string>
+    <string name="no_expense_items_uncat">Well done! All your expenses are categorized properly. Now go out and have some fun :)</string>
+    <string name="defaultTextColor">#101010</string>
+    <string name="sendFeedbackButtonLabel">Send Feedback</string>
+    <string name="menu_feedback">Send Your feedback</string>
+    <string name="send_feedback_activity">Send your feedback</string>
+    <string name="feedbackHint">Type in your feedback here.</string>
+    <string name="feedbackIntro">Hopefully you want to praise us. But we know sometimes the application might annoy you in some way. Bricks and flowers are both welcome. \nIf the app could not catch an sms as expense, please copy paste the sms in the feedback box.</string>
+    <string name="emailHint">Your email (Optional)</string>
+    <string name="sendFeedbackButton">Send</string>
+    <string name="send_feedback">Send</string>
+    <string name="export_to_csv">Export to CSV</string>
+    <string name="menu_charts">Graphical View</string>
+    <string name="charts_activity">Graphical View</string>
+    <string name="scanSmsButtonLabel">File expenses from bank SMS</string>
+    <string name="menu_restore_database">Restore from backup</string>
+    <string name="menu_backup_database">Backup to SD Card</string>
+    <string name="emptyCatViewText">No expenses yet. Why not try our auto expense filing utility?</string>
+    <string name="recategorize_expenses">Auto categorize expenses</string>
+    <string name="smsBody">SMS</string>
+    <string name="tutorial_activity">A Small Tutorial</string>
+    <string name="takeMeToTheAppButton">Got it!</string>
+    <string name="time_filter_label">"Expenses for: "</string>
+</resources>

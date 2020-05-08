@@ -1,0 +1,32 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <color name="black">#00000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <style name="DialogTheme" parent="android:Theme.Dialog" />
+
+    <style name="AppTheme" parent="Theme.Sherlock.Light.ForceOverflow">
+        <item name="android:textColor">#101010</item>
+    </style>
+
+    <style name="Widget.MyTheme.ActionBar" parent="Widget.Sherlock.ActionBar">
+        <item name="android:background">@color/black</item>
+        <item name="background">@color/black</item>
+    </style>
+
+    <style name="styleName" parent="android:Widget.EditText">
+        <item name="android:ems">8</item>
+        <item name="android:padding">4dp</item>
+    </style>
+
+    <style name="Theme.Transparent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+</resources>

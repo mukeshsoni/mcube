@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_charts"
+        android:icon="@drawable/ic_menu_charts"
+        android:showAsAction="always"
+        android:title="@string/menu_charts"/>
+    <item
+        android:id="@+id/menu_add_expense"
+        android:icon="@drawable/ic_action_add_expense"
+        android:showAsAction="always"
+        android:title="@string/menu_add_expense"/>
+    <item
+        android:id="@+id/menu_preferences"
+        android:icon="@drawable/ic_menu_settings"
+        android:title="@string/menu_preferences"/>
+    <item
+        android:id="@+id/export_to_csv"
+        android:icon="@drawable/ic_menu_export_to_csv"
+        android:title="@string/export_to_csv"/>
+    <item
+        android:id="@+id/show_categories"
+        android:icon="@drawable/ic_menu_category"
+        android:title="@string/show_categories"/>
+    <item
+        android:id="@+id/menu_feedback"
+        android:icon="@drawable/ic_menu_feedback"
+        android:title="@string/menu_feedback"/>
+    <item
+        android:id="@+id/menu_about"
+        android:icon="@drawable/ic_menu_about_us"
+        android:title="@string/menu_about"/>
+    <item
+        android:id="@+id/menu_backup_database"
+        android:icon="@drawable/ic_menu_backup_sdcard"
+        android:title="@string/menu_backup_database"/>
+    <item
+        android:id="@+id/menu_restore_database"
+        android:icon="@drawable/ic_menu_restore"
+        android:title="@string/menu_restore_database"/>
+</menu>
